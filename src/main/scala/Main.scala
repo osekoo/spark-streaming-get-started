@@ -12,7 +12,7 @@ object Main {
   def main(args: Array[String]): Unit = {
 
     def main(args: Array[String]): Unit = {
-      logger.info("Running `$name$`...")
+      logger.info("Running `Spark Streaming Get Started`...")
 
       val spark: SparkSession = SparkSession.builder()
         .appName(s"Spark Streaming Get Started")
